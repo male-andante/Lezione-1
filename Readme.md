@@ -74,6 +74,20 @@ MongoDB ha delle query native molto utili e usate per ricerche più complesse.
 
 ATTENZIONE: In node.js NON ESISTE l'oggetto globale Window (che è quello che contiene fetch, alert, metodi, le funzioni...)
 
+Per testare il server, vado su postman, poi creo una collection con dentro delle request. innanzitutto la getAll che è localhost:3001/users.
+
+per la GetById, ma per il momento non posso far nulla perché non posso far nulla, ma posso gestire l'errore => localhost:3001/users/45728y
+
+Per la POST creo una richiesta post e creo degli utenti tramite body => raw => json e creo il json utente per utente.
+
+per la PUT come la post, ma l'oggetto deve essere quello letto dalla get, non postato.
+
+per la DELETE come la getbyid
+
+
+QUERY E PAGINAZIONE
+
+mi creo degli endpoint e posso passare un id o tramite params o tramite query strings.
 
 
 
